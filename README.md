@@ -14,7 +14,8 @@ This app visualizes insights generated from Student Performance Dataset. The dat
     
 ## **Dataset**  
 
-- **Source**: [Student Performance Dataset + [Link](https://www.kaggle.com/datasets/lainguyn123/student-performance-factors)]
+**Source**: [Student Performance Dataset + [Link](https://www.kaggle.com/datasets/lainguyn123/student-performance-factors)]
+
 - **Processing**:
   - Correlation between study hours and exam scores (by gender).
   - Impact of motivation levels on previous scores.
