@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <TextView
+                android:id="@+id/title_trends"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Graphical Insights"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="32dp"
+                android:textColor="#000000" />
+
+            <!-- Graph Placeholder 1 -->
+            <ImageView
+                android:id="@+id/graph1"
+                android:layout_width="330dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/graph1" />
+
+            <!-- Graph Placeholder 2 -->
+            <ImageView
+                android:id="@+id/graph2"
+                android:layout_width="330dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/graph2" />
+
+            <!-- Graph Placeholder 3 -->
+            <ImageView
+                android:id="@+id/graph3"
+                android:layout_width="330dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/graph3" />
+
+            <!-- Graph Placeholder 4 -->
+            <ImageView
+                android:id="@+id/graph4"
+                android:layout_width="330dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/graph4" />
+
+            <!-- Graph Placeholder 5 -->
+            <ImageView
+                android:id="@+id/graph5"
+                android:layout_width="330dp"
+                android:layout_height="220dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/graph5" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EduTrack</string>
+    <string name="app_title">Student Performance Factors</string>
+    <string name="dataset"> Dataset Description</string>
+    <string name="trend"> Graphical Insights </string>
+    <string name="improvements"> Statistical Insights</string>
+</resources>
