@@ -11,18 +11,18 @@ This app visualizes insights generated from Student Performance Dataset. The dat
 - - Built with:  
   - Android Studio (Java/XML)  
   - Python (for data processing)
-  - 
+    
 ## **Dataset**  
 
 - **Source**: [Student Performance Dataset + [Link](https://www.kaggle.com/datasets/lainguyn123/student-performance-factors)]
-- - **Processing**:
+- **Processing**:
   - Correlation between study hours and exam scores (by gender).
   - Impact of motivation levels on previous scores.
   - Distribution of motivation levels across genders.
   - Peer influence patterns based on extracurricular activity participation.
   - Tutoring sessions’ effect on academic performance.
     
-- - **Calculated mean values for:**:
+- **Calculated mean values for:**:
   - Exam scores
   - Previous scores
   - Hours studied per week
@@ -30,7 +30,7 @@ This app visualizes insights generated from Student Performance Dataset. The dat
   - Sleep hours per night
   - Physical activity hours per week
     
-- - **Analyzed performance trends by:**:
+- **Analyzed performance trends by:**:
   - Motivation level (Low/Medium/High)
   - Internet access availability
   - Extracurricular activity participation
